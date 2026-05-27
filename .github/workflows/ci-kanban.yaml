@@ -5,9 +5,11 @@ on:
   push:
     branches:
       - main #VERIFIQUE SE VOCÊ ESTÁ USANDO main OU master e altere para a que você estiver usando
+      - develop
   pull_request:
     branches:
       - main #VERIFIQUE SE VOCÊ ESTÁ USANDO main OU master e altere para a que você estiver usando
+      - develop
 
 # 2. O TRABALHO (Jobs)
 jobs:
